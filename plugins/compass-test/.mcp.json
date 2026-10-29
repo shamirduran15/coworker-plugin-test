@@ -1,0 +1,22 @@
+{
+  "auth_providers": [
+    {
+      "name": "compass-passthrough",
+      "passthrough": {
+        "headers": {
+          "authorization": "authorization"
+        }
+      }
+    }
+  ],
+  "mcp_servers": {
+    "servers": [
+      {
+        "name": "compass-test",
+        "source": "https://nascar-promotes-capable-dale.trycloudflare.com/mcp/pluginpt",
+        "transport": "streamable_http",
+        "auth": "compass-passthrough"
+      }
+    ]
+  }
+}
