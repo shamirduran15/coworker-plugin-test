@@ -1,6 +1,6 @@
 {
   "name": "compass-test",
   "description": "Test plugin: one skill plus one MCP server for the Compass migration test server.",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": { "name": "shamirduran15" }
 }

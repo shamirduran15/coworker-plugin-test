@@ -4,7 +4,10 @@
       "name": "compass-passthrough",
       "passthrough": {
         "headers": {
-          "authorization": "authorization"
+          "authorization": "authorization",
+          "x-api-key": "x-api-key",
+          "x-gw-ims-org-id": "x-gw-ims-org-id",
+          "x-sandbox-name": "x-sandbox-name"
         }
       }
     }
